@@ -1,0 +1,497 @@
+[
+  {
+    "nome": "Energia Solar Fotovoltaica",
+    "descricao": "Tecnologia que converte a radiação solar diretamente em energia elétrica através de células fotovoltaicas, utilizando o efeito fotoelétrico. Uma das fontes de energia renovável mais promissoras e em rápido crescimento.",
+    "data_criacao": "1954",
+    "link": "https://www.irena.org/solar",
+    "tags": [
+      "energia renovável",
+      "solar",
+      "sustentabilidade",
+      "tecnologia limpa",
+      "energia"
+    ],
+    "categoria": "Energia Renovável",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Energia Eólica",
+    "descricao": "Geração de energia elétrica através da força dos ventos, utilizando turbinas eólicas. Tecnologia madura e altamente escalável que já representa uma parcela significativa da matriz energética mundial.",
+    "data_criacao": "1887",
+    "link": "https://www.irena.org/wind",
+    "tags": [
+      "energia renovável",
+      "eólica",
+      "sustentabilidade",
+      "tecnologia limpa",
+      "energia"
+    ],
+    "categoria": "Energia Renovável",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Veículos Elétricos (EV)",
+    "descricao": "Automóveis movidos por motores elétricos alimentados por baterias recarregáveis, eliminando emissões diretas de gases poluentes. Tecnologia em rápida evolução com redução constante de custos.",
+    "data_criacao": "1832",
+    "link": "https://www.iea.org/topics/electric-vehicles",
+    "tags": [
+      "mobilidade",
+      "transporte sustentável",
+      "zero emissões",
+      "baterias",
+      "inovação"
+    ],
+    "categoria": "Mobilidade Sustentável",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Agricultura de Precisão",
+    "descricao": "Uso de tecnologias como IoT, sensores, drones e IA para otimizar o uso de recursos agrícolas, reduzindo desperdícios e aumentando a produtividade de forma sustentável.",
+    "data_criacao": "1990",
+    "link": "https://www.fao.org/precision-agriculture",
+    "tags": [
+      "agricultura",
+      "IoT",
+      "IA",
+      "sustentabilidade",
+      "drones"
+    ],
+    "categoria": "Agrotecnologia",
+    "impacto": "Médio-Alto"
+  },
+  {
+    "nome": "Captura e Armazenamento de Carbono (CCS)",
+    "descricao": "Tecnologia que captura dióxido de carbono de fontes industriais e o armazena permanentemente no subsolo, prevenindo sua liberação na atmosfera e combatendo o aquecimento global.",
+    "data_criacao": "1972",
+    "link": "https://www.iea.org/topics/carbon-capture-utilisation-and-storage",
+    "tags": [
+      "clima",
+      "carbono",
+      "emissões",
+      "tecnologia limpa",
+      "meio ambiente"
+    ],
+    "categoria": "Tecnologia Climática",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Energia Hidrelétrica",
+    "descricao": "Geração de energia através do movimento da água, uma das fontes renováveis mais antigas e confiáveis. Modernizações incluem turbinas mais eficientes e sistemas de menor impacto ambiental.",
+    "data_criacao": "1882",
+    "link": "https://www.irena.org/hydropower",
+    "tags": [
+      "energia renovável",
+      "hidrelétrica",
+      "água",
+      "sustentabilidade",
+      "energia"
+    ],
+    "categoria": "Energia Renovável",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Baterias de Íon-Lítio",
+    "descricao": "Tecnologia de armazenamento de energia que revolucionou dispositivos portáteis e veículos elétricos. Pesquisas avançadas buscam alternativas mais sustentáveis e eficientes.",
+    "data_criacao": "1991",
+    "link": "https://www.energy.gov/eere/vehicles/articles/fotw-1220-december-14-2020-lithium-ion-battery-cost-declined-97-percent",
+    "tags": [
+      "armazenamento",
+      "baterias",
+      "energia",
+      "inovação",
+      "tecnologia"
+    ],
+    "categoria": "Armazenamento de Energia",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Energia Geotérmica",
+    "descricao": "Aproveitamento do calor natural do interior da Terra para gerar energia elétrica e aquecimento. Fonte renovável constante e confiável, independente de condições climáticas.",
+    "data_criacao": "1904",
+    "link": "https://www.irena.org/geothermal",
+    "tags": [
+      "energia renovável",
+      "geotérmica",
+      "sustentabilidade",
+      "tecnologia limpa",
+      "energia"
+    ],
+    "categoria": "Energia Renovável",
+    "impacto": "Médio"
+  },
+  {
+    "nome": "Smart Grids (Redes Inteligentes)",
+    "descricao": "Sistemas de distribuição de energia elétrica que utilizam tecnologia digital para monitorar, controlar e otimizar o fluxo de energia, integrando fontes renováveis e melhorando eficiência.",
+    "data_criacao": "2000",
+    "link": "https://www.energy.gov/oe/activities/technology-development/smart-grid",
+    "tags": [
+      "energia",
+      "IoT",
+      "infraestrutura",
+      "sustentabilidade",
+      "tecnologia"
+    ],
+    "categoria": "Infraestrutura Inteligente",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Biocombustíveis Avançados",
+    "descricao": "Combustíveis produzidos a partir de biomassa não alimentar, resíduos e algas. Alternativa sustentável aos combustíveis fósseis com menor pegada de carbono.",
+    "data_criacao": "2000",
+    "link": "https://www.energy.gov/eere/bioenergy/biofuels-basics",
+    "tags": [
+      "biocombustíveis",
+      "energia renovável",
+      "biomassa",
+      "sustentabilidade",
+      "transporte"
+    ],
+    "categoria": "Energia Renovável",
+    "impacto": "Médio-Alto"
+  },
+  {
+    "nome": "Energia das Marés",
+    "descricao": "Geração de energia elétrica através do movimento das marés oceânicas. Tecnologia emergente com potencial significativo em regiões costeiras com grandes variações de maré.",
+    "data_criacao": "1966",
+    "link": "https://www.irena.org/ocean-energy",
+    "tags": [
+      "energia renovável",
+      "oceânica",
+      "marés",
+      "sustentabilidade",
+      "energia"
+    ],
+    "categoria": "Energia Renovável",
+    "impacto": "Médio"
+  },
+  {
+    "nome": "Energia das Ondas",
+    "descricao": "Tecnologia que converte a energia cinética e potencial das ondas oceânicas em eletricidade. Fonte renovável com grande potencial, ainda em fase de desenvolvimento comercial.",
+    "data_criacao": "1974",
+    "link": "https://www.irena.org/ocean-energy",
+    "tags": [
+      "energia renovável",
+      "oceânica",
+      "ondas",
+      "sustentabilidade",
+      "energia"
+    ],
+    "categoria": "Energia Renovável",
+    "impacto": "Médio"
+  },
+  {
+    "nome": "Hidrogênio Verde",
+    "descricao": "Hidrogênio produzido através da eletrólise da água usando energia renovável. Considerado o 'combustível do futuro' por sua capacidade de armazenar energia limpa sem emissões.",
+    "data_criacao": "2020",
+    "link": "https://www.irena.org/hydrogen",
+    "tags": [
+      "hidrogênio",
+      "energia renovável",
+      "combustível limpo",
+      "sustentabilidade",
+      "armazenamento"
+    ],
+    "categoria": "Energia Renovável",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Edifícios Net-Zero",
+    "descricao": "Construções que produzem tanta energia renovável quanto consomem anualmente. Utilizam tecnologias de eficiência energética, isolamento avançado e sistemas de energia renovável integrados.",
+    "data_criacao": "2000",
+    "link": "https://www.energy.gov/eere/buildings/zero-energy-buildings",
+    "tags": [
+      "construção",
+      "eficiência energética",
+      "arquitetura sustentável",
+      "sustentabilidade",
+      "edifícios"
+    ],
+    "categoria": "Construção Sustentável",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Cidades Inteligentes (Smart Cities)",
+    "descricao": "Urbanização que utiliza tecnologia IoT, big data e IA para otimizar recursos, reduzir desperdícios e melhorar a qualidade de vida, promovendo sustentabilidade urbana.",
+    "data_criacao": "2010",
+    "link": "https://www.itu.int/en/ITU-T/ssc/Pages/default.aspx",
+    "tags": [
+      "IoT",
+      "urbanização",
+      "sustentabilidade",
+      "tecnologia",
+      "IA"
+    ],
+    "categoria": "Infraestrutura Inteligente",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Economia Circular",
+    "descricao": "Modelo econômico que elimina desperdícios através do design, promovendo reutilização, reciclagem e regeneração de materiais. Tecnologias digitais facilitam rastreamento e otimização.",
+    "data_criacao": "1990",
+    "link": "https://www.ellenmacarthurfoundation.org/circular-economy",
+    "tags": [
+      "sustentabilidade",
+      "reciclagem",
+      "economia",
+      "inovação",
+      "meio ambiente"
+    ],
+    "categoria": "Sustentabilidade",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Agricultura Vertical",
+    "descricao": "Cultivo de plantas em camadas empilhadas verticalmente, geralmente em ambientes controlados. Reduz uso de água, terra e pesticidas, permitindo produção local de alimentos.",
+    "data_criacao": "1999",
+    "link": "https://www.vertical-farming.net/",
+    "tags": [
+      "agricultura",
+      "inovação",
+      "sustentabilidade",
+      "alimentos",
+      "tecnologia"
+    ],
+    "categoria": "Agrotecnologia",
+    "impacto": "Médio-Alto"
+  },
+  {
+    "nome": "Purificação de Água com Nanotecnologia",
+    "descricao": "Uso de nanomateriais e membranas avançadas para purificar água de forma mais eficiente e acessível, removendo contaminantes e tornando água potável disponível em áreas remotas.",
+    "data_criacao": "2000",
+    "link": "https://www.nano.gov/nanotech-101/what/definition",
+    "tags": [
+      "água",
+      "nanotecnologia",
+      "purificação",
+      "sustentabilidade",
+      "meio ambiente"
+    ],
+    "categoria": "Tecnologia Ambiental",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Dessalinização por Osmose Reversa",
+    "descricao": "Processo que remove sal e outros minerais da água do mar, tornando-a potável. Tecnologia essencial para regiões com escassez hídrica, com melhorias constantes em eficiência energética.",
+    "data_criacao": "1960",
+    "link": "https://www.water-technology.net/features/featurereverse-osmosis-desalination/",
+    "tags": [
+      "água",
+      "dessalinização",
+      "sustentabilidade",
+      "tecnologia",
+      "meio ambiente"
+    ],
+    "categoria": "Tecnologia Ambiental",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Materiais Biodegradáveis Avançados",
+    "descricao": "Desenvolvimento de plásticos e materiais sintéticos que se decompõem naturalmente sem deixar resíduos tóxicos. Inclui bioplásticos de origem vegetal e materiais compostáveis.",
+    "data_criacao": "1980",
+    "link": "https://www.bioplasticsmagazine.com/",
+    "tags": [
+      "materiais",
+      "biodegradável",
+      "sustentabilidade",
+      "inovação",
+      "meio ambiente"
+    ],
+    "categoria": "Materiais Sustentáveis",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Reciclagem Química Avançada",
+    "descricao": "Tecnologias que decompõem plásticos em seus componentes químicos originais, permitindo reciclagem infinita sem degradação de qualidade. Solução para o problema global de resíduos plásticos.",
+    "data_criacao": "2010",
+    "link": "https://www.americanchemistry.com/chemistry-in-america/chemistry-in-action/advanced-recycling",
+    "tags": [
+      "reciclagem",
+      "plásticos",
+      "sustentabilidade",
+      "inovação",
+      "meio ambiente"
+    ],
+    "categoria": "Sustentabilidade",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Monitoramento Ambiental por Satélite",
+    "descricao": "Uso de satélites e sensoriamento remoto para monitorar desmatamento, poluição, mudanças climáticas e recursos naturais em tempo real, permitindo ações preventivas e políticas baseadas em dados.",
+    "data_criacao": "1972",
+    "link": "https://www.esa.int/Applications/Observing_the_Earth",
+    "tags": [
+      "satélites",
+      "monitoramento",
+      "meio ambiente",
+      "tecnologia",
+      "dados"
+    ],
+    "categoria": "Tecnologia Ambiental",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Reflorestamento com Drones",
+    "descricao": "Uso de drones para semear árvores em larga escala, mapear áreas degradadas e monitorar crescimento florestal. Tecnologia que acelera significativamente projetos de reflorestamento.",
+    "data_criacao": "2015",
+    "link": "https://www.droneseed.com/",
+    "tags": [
+      "drones",
+      "reflorestamento",
+      "meio ambiente",
+      "sustentabilidade",
+      "tecnologia"
+    ],
+    "categoria": "Tecnologia Ambiental",
+    "impacto": "Médio-Alto"
+  },
+  {
+    "nome": "Energia de Biomassa",
+    "descricao": "Geração de energia através da queima ou processamento de matéria orgânica (resíduos agrícolas, florestais, lixo orgânico). Fonte renovável que também ajuda no gerenciamento de resíduos.",
+    "data_criacao": "1970",
+    "link": "https://www.irena.org/bioenergy",
+    "tags": [
+      "energia renovável",
+      "biomassa",
+      "resíduos",
+      "sustentabilidade",
+      "energia"
+    ],
+    "categoria": "Energia Renovável",
+    "impacto": "Médio"
+  },
+  {
+    "nome": "Iluminação LED Eficiente",
+    "descricao": "Diodos emissores de luz que consomem até 90% menos energia que lâmpadas incandescentes e têm vida útil muito maior. Tecnologia que revolucionou a eficiência energética em iluminação.",
+    "data_criacao": "1962",
+    "link": "https://www.energy.gov/energysaver/led-lighting",
+    "tags": [
+      "eficiência energética",
+      "LED",
+      "iluminação",
+      "sustentabilidade",
+      "tecnologia"
+    ],
+    "categoria": "Eficiência Energética",
+    "impacto": "Médio-Alto"
+  },
+  {
+    "nome": "Sistemas de Armazenamento de Energia em Escala",
+    "descricao": "Baterias de grande escala e outras tecnologias (como armazenamento por gravidade e ar comprimido) que permitem armazenar energia renovável intermitente para uso posterior.",
+    "data_criacao": "2010",
+    "link": "https://www.energy.gov/oe/energy-storage",
+    "tags": [
+      "armazenamento",
+      "energia renovável",
+      "baterias",
+      "sustentabilidade",
+      "infraestrutura"
+    ],
+    "categoria": "Armazenamento de Energia",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Tecnologia de Membranas para Filtração",
+    "descricao": "Membranas avançadas de nanofiltração e ultrafiltração para tratamento de água e efluentes, removendo contaminantes de forma mais eficiente e com menor consumo energético.",
+    "data_criacao": "1960",
+    "link": "https://www.wateronline.com/doc/membrane-filtration-technology-0001",
+    "tags": [
+      "água",
+      "filtração",
+      "purificação",
+      "sustentabilidade",
+      "tecnologia"
+    ],
+    "categoria": "Tecnologia Ambiental",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Mobilidade Compartilhada",
+    "descricao": "Plataformas digitais que facilitam compartilhamento de veículos, bicicletas e transporte público, reduzindo número de veículos nas ruas e emissões de carbono.",
+    "data_criacao": "2008",
+    "link": "https://www.sharedusemobilitycenter.org/",
+    "tags": [
+      "mobilidade",
+      "transporte sustentável",
+      "compartilhamento",
+      "sustentabilidade",
+      "tecnologia"
+    ],
+    "categoria": "Mobilidade Sustentável",
+    "impacto": "Médio-Alto"
+  },
+  {
+    "nome": "Energia Solar Concentrada (CSP)",
+    "descricao": "Sistema que usa espelhos ou lentes para concentrar luz solar em um receptor, gerando calor que aciona turbinas para produção de eletricidade. Permite armazenamento térmico de energia.",
+    "data_criacao": "1980",
+    "link": "https://www.irena.org/solar",
+    "tags": [
+      "energia renovável",
+      "solar",
+      "armazenamento",
+      "sustentabilidade",
+      "energia"
+    ],
+    "categoria": "Energia Renovável",
+    "impacto": "Médio-Alto"
+  },
+  {
+    "nome": "Tecnologia de Remoção de CO2 do Ar (DAC)",
+    "descricao": "Sistemas que capturam dióxido de carbono diretamente da atmosfera, ajudando a reduzir concentrações globais de CO2. Tecnologia emergente com potencial para combater mudanças climáticas.",
+    "data_criacao": "2015",
+    "link": "https://www.iea.org/energy-system/carbon-capture-utilisation-and-storage/direct-air-capture",
+    "tags": [
+      "clima",
+      "carbono",
+      "emissões",
+      "tecnologia limpa",
+      "meio ambiente"
+    ],
+    "categoria": "Tecnologia Climática",
+    "impacto": "Alto"
+  },
+  {
+    "nome": "Aquaponia",
+    "descricao": "Sistema integrado que combina aquicultura (criação de peixes) com hidroponia (cultivo de plantas sem solo), criando um ciclo simbiótico que recicla nutrientes e reduz uso de água.",
+    "data_criacao": "1970",
+    "link": "https://www.fao.org/fishery/affris/species-profiles/aquaponics/en",
+    "tags": [
+      "agricultura",
+      "aquicultura",
+      "sustentabilidade",
+      "inovação",
+      "alimentos"
+    ],
+    "categoria": "Agrotecnologia",
+    "impacto": "Médio"
+  },
+  {
+    "nome": "Energia de Resíduos (Waste-to-Energy)",
+    "descricao": "Tecnologias que convertem resíduos sólidos urbanos em energia elétrica ou térmica através de incineração controlada ou gaseificação, reduzindo volume de lixo em aterros.",
+    "data_criacao": "1874",
+    "link": "https://www.epa.gov/smm/energy-recovery-combustion-municipal-solid-waste-msw",
+    "tags": [
+      "resíduos",
+      "energia",
+      "reciclagem",
+      "sustentabilidade",
+      "tecnologia"
+    ],
+    "categoria": "Gestão de Resíduos",
+    "impacto": "Médio"
+  },
+  {
+    "nome": "Tecnologia de Baterias de Estado Sólido",
+    "descricao": "Próxima geração de baterias que substitui eletrólitos líquidos por sólidos, oferecendo maior densidade energética, segurança e vida útil. Promessa para veículos elétricos e armazenamento de energia.",
+    "data_criacao": "2010",
+    "link": "https://www.energy.gov/eere/vehicles/articles/vehicle-technologies-office-solid-state-batteries",
+    "tags": [
+      "armazenamento",
+      "baterias",
+      "inovação",
+      "energia",
+      "tecnologia"
+    ],
+    "categoria": "Armazenamento de Energia",
+    "impacto": "Alto"
+  }
+]

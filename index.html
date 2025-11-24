@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Base de Conhecimento - Tecnologias Sustentáveis</title>
+</head>
+<body>
+    <div class="background-pattern"></div>
+    
+    <header>
+        <button class="title-button" onclick="VoltarInicio()" title="Clique para voltar à página inicial">
+            <h1>🌱 Base de Conhecimento</h1>
+        </button>
+        <p class="subtitle">Tecnologias Sustentáveis</p>
+        <div class="search-box">
+            <div class="search-input-wrapper">
+                <input type="text" id="busca-input" placeholder="Digite para buscar...">
+                <button class="clear-search" id="clear-search" onclick="LimparBusca()" style="display: none;" title="Limpar busca">×</button>
+            </div>
+            <button id="botao-busca" onclick="IniciarBusca()">Buscar</button>
+        </div>
+    </header>
+    
+    <main>
+        <div class="welcome-screen" id="welcome-screen">
+            <div class="welcome-content">
+                <h2>🌱 Bem-vindo à Base de Conhecimento</h2>
+                <p class="welcome-description">
+                    Esta é uma base de conhecimento sobre <strong>Tecnologias Sustentáveis</strong> e inovações verdes 
+                    que estão transformando nosso planeta. Aqui você pode encontrar informações sobre diversas 
+                    tecnologias que promovem sustentabilidade, desde energias renováveis até soluções ambientais inovadoras.
+                </p>
+                <div class="welcome-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">🔍</span>
+                        <h3>Busca Inteligente</h3>
+                        <p>Digite palavras-chave para encontrar tecnologias específicas. A busca funciona por nome, descrição, categoria e palavras-chave.</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">📚</span>
+                        <h3>33 Tecnologias</h3>
+                        <p>Explore uma coleção de tecnologias sustentáveis, cada uma com informações detalhadas e links para saber mais.</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🌍</span>
+                        <h3>Futuro Sustentável</h3>
+                        <p>Conheça as inovações que estão ajudando a construir um futuro mais verde e sustentável para todos.</p>
+                    </div>
+                </div>
+                <div class="welcome-examples">
+                    <h3>🔎 Exemplos de Busca</h3>
+                    <div class="example-buttons">
+                        <button class="example-btn" onclick="BuscarExemplo('energia')">energia</button>
+                        <button class="example-btn" onclick="BuscarExemplo('solar')">solar</button>
+                        <button class="example-btn" onclick="BuscarExemplo('água')">água</button>
+                        <button class="example-btn" onclick="BuscarExemplo('reciclagem')">reciclagem</button>
+                        <button class="example-btn" onclick="BuscarExemplo('mobilidade')">mobilidade</button>
+                        <button class="example-btn" onclick="BuscarExemplo('baterias')">baterias</button>
+                    </div>
+                </div>
+                <div class="welcome-tip">
+                    <p>💡 <strong>Dica:</strong> Você pode buscar por nome, categoria, descrição ou qualquer palavra-chave relacionada!</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="results-header" id="results-header" style="display: none;">
+            <p class="results-count" id="results-count"></p>
+        </div>
+        <div class="loading-state" id="loading-state" style="display: none;">
+            <div class="loading-spinner"></div>
+            <p>Buscando tecnologias...</p>
+        </div>
+        <div class="card-container" id="card-container" style="display: none;">
+            <!-- Os cards aparecerão aqui -->
+        </div>
+        <div class="empty-state" id="empty-state" style="display: none;">
+            <p>Nenhum resultado encontrado. Tente buscar novamente!</p>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Feito com 💚 por um iniciante em desenvolvimento web</p>
+        <div class="footer-links">
+            <a href="https://github.com/Renan-bsantos" target="_blank">GitHub</a>
+            <a href="https://cursos.alura.com.br" target="_blank">Alura</a>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
